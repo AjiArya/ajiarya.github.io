@@ -20,7 +20,7 @@ title                    : "ajiarya.github.io"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Aji Arya"
-description              : "Telling story of IT Journey."
+description              : "This website contain tutorial on how to install and configure openstack, ceph, kubernetes, docker, ocp, and linux."
 url                      : https://ajiarya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Aji Arya"
   avatar           : "assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Seorang Teknisi Awan."
+  bio              : "Young Engineer, I have big interest in Technology and Science."
   location         : "Jakarta, Indonesia"
   email            : ajiaryaedu@gmail.com
   links:
