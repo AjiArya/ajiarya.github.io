@@ -3,7 +3,7 @@ layout: home
 author_profile: true
 ---
 
-## Welcome everyone
+# Welcome Everyone
 
 Personal Journey on IT World.
 
