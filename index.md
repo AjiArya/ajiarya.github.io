@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Welcome Everyone!
+title: Catatan Belajar IT
 author_profile: true
 ---
 
-Personal Journey on IT World.
+Perjalan dalam dunia IT.
 
 * [Blog](https://ajiarya.github.io/blog)
-* [Profile](https://github.com/ajiarya)
+* [Profil](https://github.com/ajiarya)
