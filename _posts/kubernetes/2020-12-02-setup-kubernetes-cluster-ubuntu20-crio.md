@@ -145,7 +145,7 @@ dns:
 etcd:
   local:
     dataDir: /var/lib/etcd
-controlPlaneEndpoint: 10.10.10.51:6443        # Sesuaikan dengan IP Addr host
+controlPlaneEndpoint: k8s-master:6443         # Sesuaikan dengan IP Addr host
 kind: ClusterConfiguration
 kubernetesVersion: v1.19.4
 networking:
@@ -182,7 +182,7 @@ Jalankan *command* di bawah ini disemua worker
 ## 3.7. Worker bergabung ke *cluster*
 *Command* di bawah hanyalah contoh
 ```bash
-sudo kubeadm join 10.10.10.51:6443 --token 12v372.zgar4m9gtvcy82t4 \
+sudo kubeadm join k8s-master:6443 --token 12v372.zgar4m9gtvcy82t4 \
 --discovery-token-ca-cert-hash sha256:8c4bf4cfda563e260751c6860ec67613a39a2b5df24dbda8b2b1d1256b12d201
 ```
 
