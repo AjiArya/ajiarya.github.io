@@ -145,7 +145,7 @@ dns:
 etcd:
   local:
     dataDir: /var/lib/etcd
-controlPlaneEndpoint: k8s-master:6443         # Sesuaikan dengan IP Addr host
+controlPlaneEndpoint: k8s-master:6443         # Sesuaikan dengan hostname host
 kind: ClusterConfiguration
 kubernetesVersion: v1.19.4
 networking:
