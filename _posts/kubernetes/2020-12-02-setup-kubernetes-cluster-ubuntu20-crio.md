@@ -11,7 +11,7 @@ Halo semua, dalam kesempatan kali ini saya akan berbagi cara *setup* Kubernetes 
 
 # Topologi
 Berikut topologi yang digunakan:
-![Topologi Kubernetes](/assets/images/kubernetes/2020-12-02-setup_kubernetes_cluster_v119.png)
+{% include figure image_path="/assets/images/kubernetes/2020-12-02-setup_kubernetes_cluster_v119.png" caption="Topologi Kubernetes" %}
 
 | Nama VM      | NIC                  | Spesifikasi                        |
 |--------------|----------------------|------------------------------------|
