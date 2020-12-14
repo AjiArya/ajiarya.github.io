@@ -2,6 +2,11 @@
 layout: single
 title: Setup Minikube di KVM - Linux
 category: kubernetes
+tag:
+- kubernetes
+- container
+- container orchestration
+- minikube
 toc: true
 toc_sticky: true
 toc_icon: "book-reader"

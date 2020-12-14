@@ -1,13 +1,18 @@
 ---
 layout: single
-title: Setup Kubernetes Cluster on Ubuntu 20.04 with CRI-O Engine
+title: Setup Kubernetes Cluster di Ubuntu 20.04 dengan CRI-O Engine
 category: kubernetes
+tag:
+- kubernetes
+- container
+- container orchestration
+- crio
 toc: true
 toc_sticky: true
 toc_icon: "book-reader"
 ---
 
-Halo semua, dalam kesempatan kali ini saya akan berbagi cara *setup* Kubernetes dengan menggunakan `kubeadm` versi 1.19 di Ubuntu 20.04 (Focal) dengan menggunakan container engine CRI-O.
+Halo semua, dalam kesempatan kali ini saya akan berbagi cara *setup* Kubernetes v1.19 dengan menggunakan `kubeadm` di Ubuntu 20.04 (Focal) dengan menggunakan container engine CRI-O.
 
 # Topologi
 Berikut topologi yang digunakan:

@@ -2,6 +2,13 @@
 layout: single
 title: Setup CNI di minikube
 category: kubernetes
+tag:
+- kubernetes
+- container
+- container orchestration
+- minikube
+- network policy
+- cni
 toc: true
 toc_sticky: true
 toc_icon: "book-reader"
