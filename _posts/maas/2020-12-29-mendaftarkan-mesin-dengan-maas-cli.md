@@ -54,3 +54,6 @@ maas admin machines create \
 ```bash
 maas admin machines read | jq '.[] | .hostname'
 ```
+
+# Referensi
+[MaaS Advanced CLI Tasks](https://maas.io/docs/advanced-cli-tasks)

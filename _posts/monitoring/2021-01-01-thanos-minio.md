@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Thanos
+title: Thanos Prometheus dengan Minio
 category: monitoring
 tags:
 - thanos
