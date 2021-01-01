@@ -12,7 +12,7 @@ toc_sticky: true
 toc_icon: "book-reader"
 ---
 
-Pada kesempatan kali ini saya akan membagikan cara bagaimana setup thanos untuk pengumpulan metrik dari banyak Prometheus.
+Pada kesempatan kali ini saya akan membagikan cara bagaimana setup Thanos untuk pengumpulan metrik dari banyak Prometheus dan kemudian datanya akan dimasukkan ke *object storage* Minio
 
 # Topologi
 {% include figure image_path="/assets/images/monitoring/thanos_minio/thanos_topology_whitebg.png" caption="Topologi Thanos" %}
@@ -392,9 +392,9 @@ sudo systemctl status thanos-querier
 * IP_HOST_MINIO:9090
 {% include figure image_path="/assets/images/monitoring/thanos_minio/minio.png" caption="Penyimpanan metrik Minio" %}
 
-Dengan Thanos kita dimudahkan untuk mengumpulkan metrik dari banyak Prometheus sehingga lebih tersentralisasi dan dengan itu jika kita ingin melihat metrik atau menampilkan grafik dari metrik tersebut kita hanya perlu menggunakan endpoint Thanos saja.
+Dengan Thanos kita dimudahkan untuk mengumpulkan metrik dari banyak Prometheus sehingga lebih tersentralisasi dan dengan itu jika kita ingin melihat metrik atau menampilkan grafik dari metrik tersebut kita hanya perlu menggunakan endpoint Thanos saja
 
-Sekian, Terima Kasih.
+Sekian, Terima Kasih
 
 # Referensi
 [Logo Thanos](https://cncf-branding.netlify.app/img/projects/thanos/icon/color/thanos-icon-color.png)  
