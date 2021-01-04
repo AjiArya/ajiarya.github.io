@@ -67,6 +67,9 @@ atau
 
 Daftar mesin yang menggunakan tag `tagcontoh`
 ```bash
+maas admin tag machines <Nama tag> | jq '.[] | .hostname'
+
+# Contoh
 maas admin tag machines tagcontoh | jq '.[] | .hostname'
 ```
 
