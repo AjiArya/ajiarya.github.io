@@ -157,7 +157,7 @@ tar xf prometheus-2.23.0.linux-amd64.tar.gz
 sudo cp prometheus-2.23.0.linux-amd64/prometheus /usr/local/bin/prometheus
 ```
 
-Buat file konfirasi Prometheus
+Buat file konfigurasi Prometheus
 ```bash
 sudo mkdir /etc/prometheus
 sudo bash -c 'cat <<EOF > /etc/prometheus/prometheus.yml
